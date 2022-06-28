@@ -12,3 +12,11 @@ const newArrayCopy = copyArrayNammes.slice(0, -1) //repartir array do índice 1 
 
 const fromArray = 'Eduardo Soares de Araujo Aquino'.split(' '); //separar string em array
 const joinArray = arrayNames.join(' '); // juntar elementos do array em string
+
+const eduardo = {
+  name: 'eduardo'
+}
+
+eduardo.name = 'Andreza'
+
+console.log(eduardo);

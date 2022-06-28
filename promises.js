@@ -7,7 +7,7 @@ const timeRandom = (max, min) => {
 
 const connectBD = (time, message) => {
   return new Promise((resolve, reject) => {
-    if(typeof message !== 'string') {
+    if(typeof message !== 'string') {ç
       reject(new TypeError('message must be a string'))
       return;
     }
